@@ -1,0 +1,285 @@
+/* Small devices (tablets, 768px and up) */
+/**@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up)
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) 
+@media (min-width: @screen-lg-min) { ... }
+**/
+.Slide1 {
+    align-content: center;
+    
+}
+
+.CustomNavBar {
+    margin-top: 2em;
+    padding: 3px;
+    border-style: solid;
+    
+    border-width: .2em;
+    border-color: #777;
+    box-shadow: .2em .1em 10px #EEE;
+}
+
+
+
+.site-title {
+    color: #444;
+    font-size:2em;
+    margin-top: .5em;
+    
+}
+
+.menu-list {
+    margin-top: 1.5em;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #555; 
+}
+
+.menu-list li a:hover {
+    color: #666;
+    
+}
+
+
+.navItem {
+    color: #777;
+    font-weight: bolder;
+}
+
+.Slide2 .navItem {
+    margin-top: 6em;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 6em;
+}
+
+.desc {
+    font-size: 3em;
+    margin-top: -.2em
+    
+}
+.desc small{
+    font-weight: 100;
+    color:#999
+    
+}
+
+.navArrow {
+        margin-top: 30em;
+}
+
+.hello {
+    margin-top: 3em;
+    margin-bottom: -1em;
+}
+
+.descLarge {
+    font-weight: bolder;
+    font-size: 7.5em;
+}
+
+.PreExp {
+        color: #777;
+        font-weight: bolder;
+    margin-top: 2.3em;
+}
+
+.prevList li{
+    list-style:circle; 
+    font-weight: 600;
+     color:#444;
+    margin-top: .3em;
+    font-weight: 500;
+}
+
+.ItemContact {
+    margin-top: 7em;
+}
+
+.textLarge {
+    font-size: 7em;
+    font-weight: bolder;
+}
+.Slide3 .navItem{
+    margin-top: 5em
+}
+
+
+.SlideHeight1 {
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #222;
+}
+
+.Slide3 .navItem {
+    margin-top: 3em;
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    
+    .hello {
+        margin-top: 4em;
+    }
+    
+    .name {
+        margin-top: .4em;
+        font-size:5.7em;
+    }
+    
+    .navArrow {
+        margin-top: 35em;
+    }
+    
+    .Slide2 .navItem {
+        
+    }
+    
+    .descLarge {
+        font-size: 8em;
+    }
+    
+    .PreExp {
+        margin-top: 2em;
+    }
+    
+    .prevList li{
+        font-size: 1.2em;   
+    }
+    .textLarge {
+        font-size: 8em;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    
+    .name {
+        font-size: 6.7em;
+    }
+    .navArrow {
+        margin-top: 35em;
+    }
+    
+    .descLarge {
+        margin-top: .75em;
+        font-size: 8em
+        
+    }
+    
+    .PreExp {
+        margin-top: 2em;
+    }
+    
+    .prevList {
+        margin-top: 2em;
+        font-size: 1.1em
+    }
+    
+    .textLarge {
+        margin-top: 1.1em;
+    }
+    
+}
+@media (min-width: 1200px) {
+    
+    .hello {
+        margin-top: 15em;
+    }
+    
+    
+    .name {
+        font-size: 8em;
+    }
+    
+    .navArrow{
+        margin-top: 18em;
+    }
+    
+    .Slide2 .navItem {
+        margin-top: 9em;
+    }
+    
+    .Slide2 .descLarge {
+        margin-top: 1.05em;
+        font-size: 9em;
+    }
+    
+    .Slide2 .prevList {
+        margin-top: 2.4em;
+        font-size: 1.1em
+    }
+    
+    .Slide4 .textLarge {
+        margin-top: 1.3em;
+        font-size: 8.6em
+    }
+    
+    .Slide4 .ItemContact {
+        margin-top: 10em;
+    }
+    
+    .Slide3 .navItem {
+        margin-top: 11em;
+    }
+    .Slide3 .thumbPort {
+        margin-top: 10em
+    }
+}
+
+@media (min-width: 1600px) { body{
+        width: 1600px;
+        align-content: center;
+        margin: auto;
+    }
+}
+
+.CustomNavBar a {
+    color: #333;
+}
+
+.CustomNavBar a:hover {
+    text-decoration: none;
+}
+
+
+/**
+Slide3 Modification
+*/
+
+
+.thumbPort {
+    background-color: #222;
+    height:21em;
+    border-radius: .5em;
+    margin-top: 6em
+}
+
+.thumbPort h2{
+    margin-top: 4.5em;
+    color:#DDD;
+    text-shadow: .2em .1em 6px #121212;
+}
+@media (min-width: 1200px) and (max-width:1500px){
+    .Slide2 .descLarge {
+        font-size: 9em
+    }
+}
+
+body{
+    color:crimson;
+}
+
+
+/**@media (max-width: 1200px) { body{
+        color: red;
+    }
+}
+/*@media (min-width: 1200px) { body{
+        color: red;
+    }
+}*/
