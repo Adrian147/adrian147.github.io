@@ -4,7 +4,6 @@
 
 Just a work in progress for a personal portfolio. Kept it online to keep me motivated. here's the [link](https://adrian147.github.io/).
 
----
 
 ##TODO
 
