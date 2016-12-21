@@ -352,7 +352,10 @@ iPad support.
         font-size: 6em;
     }
 }
-/* Mobile Overlay Menu
+/*
+///////////////////////////////////////////////////////////
+Mobile Overlay Menu
+///////////////////////////////////////////////////////////
 */
 
 .overlay{
@@ -363,13 +366,16 @@ iPad support.
 	top: 0;
 	left: 0;
     z-index: 100;
-	background: rgba(0,0,0,0.94);
+	background: rgb(219, 20, 60);
     transition: opacity 0.5s, visibility 0.5s;
     
 }
 .overlay span.glyphicon{
-    font-size: 3em;
-    color: #CCC;
+    font-size: 2.5em;
+    color: rgb(163, 17, 47);
+    cursor: pointer;
+    top: 30px;
+    right: 30px;
 }
 
 .overlay ul{
@@ -390,16 +396,18 @@ iPad support.
 	display: block;
 	height: 20%;
 	min-height: 54px;
+    font-weight: 200;
 }
 
 .overlay ul li a{
-    color: rgb(219, 20, 60);
+    color: rgb(255, 255, 255);
     transition: color .3s;
+    
 }
 
 .overlay ul li a:hover{
+    color: rgb(167, 14, 45);
     text-decoration: none;
-    color: rgba(219, 20, 60, .56);
     transition: color .3s;
 }
 
@@ -409,13 +417,13 @@ iPad support.
 	transition: opacity 0.5s, visibility 0s 0.5s;
 }
 
-
-
-/**@media (max-width: 1200px) { body{
-        color: red;
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .overlay ul li{
+        font-size: 30px;
+    }
+    .overlay ul li:first{
+        margin-top: 30%;
     }
 }
-/*@media (min-width: 1200px) { body{
-        color: red;
-    }
-}*/
+

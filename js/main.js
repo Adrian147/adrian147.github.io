@@ -7,8 +7,8 @@ $(document).ready(function() {
         $('.SlideHeight1').css("height", 568);
         $('.SlideHeight2').css("height", 2*568);
         $('.SlideHeight3').css("height", 3*568);
-        
-    }
+    };
+    
     $(".close_button").click(function(){
         $(".overlay").addClass("toggle_menu");
     }); 
@@ -16,4 +16,8 @@ $(document).ready(function() {
     $(".open_menu").click(function(){
         $(".overlay").removeClass("toggle_menu");
     });
+    
+    $(".overlay_menu li a").click(function(){
+        $(".overlay").addClass("toggle_menu");
+    }); 
 });
