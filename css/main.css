@@ -124,6 +124,8 @@
     border-bottom: 1px;
     border-style: solid;
     border-color: #222;
+    overflow-y: hidden;
+    min-height: 568px;
 }
 
 .Slide3 .navItem {
@@ -319,18 +321,37 @@ body{
     .Slide1 .desc{
         font-size: 2em;
     }
+    .Slide2 .navItem{
+        margin-top: 32px;
+    }
     
     .Slide2 .descLarge{
         font-size: 3.7em;
         width: 300px;
         margin: auto;
     }
+    .Slide2 .prevList{
+        font-size: 11px;
+    }
     
     .Slide4 .textLarge{
         font-size: 3.5em;
     }
+    
+    .Slide4 .navItem{
+        margin-top: 20px;
+    }
 }
+/*
+iPad support.
+*/
 
+
+@media (min-width: 992px) and (max-width:1200px) and (max-height: 890px){
+    .descLarge{
+        font-size: 6em;
+    }
+}
 /* Mobile Overlay Menu
 */
 
