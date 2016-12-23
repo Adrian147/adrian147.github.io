@@ -196,7 +196,31 @@
     }
     
 }
-@media (min-width: 1200px) {
+
+@media (min-width: 1200px) and (max-width:1500px) {
+    .hello {
+        margin-top: 13em;
+    }
+    
+    .navArrow{
+        margin-top: 18em;
+    }
+    
+    .Slide2 .descLarge {
+        margin-top: .85em;
+        font-size: 7.3em;
+    }
+    .Slide2 .prevList {
+        margin-top: 2.4em;
+        font-size: 1.1em;
+    }
+    .Slide4 .textLarge {
+        margin-top: 1.1em;
+        font-size: 6.6em;
+    }
+}
+
+@media (min-width: 1500px) {
     
     .hello {
         margin-top: 15em;
@@ -274,11 +298,6 @@ Slide3 Modification
     margin-top: 4.5em;
     color:#DDD;
     text-shadow: .2em .1em 6px #121212;
-}
-@media (min-width: 1200px) and (max-width:1500px){
-    .Slide2 .descLarge {
-        font-size: 9em
-    }
 }
 
 /*
